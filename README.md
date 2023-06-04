@@ -10,6 +10,16 @@ This project has automate user API from postman using newman
 ## Pre requisites:
 - NodeJS
 
+## Scenario
+Admin creates an agent and random 2 customers
+Deposit some money from SYSTEM account to the agent
+Agent deposit to any of 1 customer
+The customer checks balance
+Then withdraw any amount from the agent
+And send money to the other customer
+Then the customer will check statement
+For each transaction, assert expected balance
+
 ## How to run:
 - ``` git clone ```
 - ``` npm i```
